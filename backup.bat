@@ -3,7 +3,7 @@
 setlocal enabledelayedexpansion
 
 set source="\\Sas-ct-39927\servidor\Nova pasta"
-set baseDestination="D:\SERVIDOR\beckup"
+set baseDestination="D:\SERVIDOR\backup"
 
 :: Formatar a data e a hora
 for /f "tokens=1-4 delims=/ " %%i in ("%date%") do (
